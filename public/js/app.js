@@ -1,4 +1,4 @@
-console.log("Client-side JS loaded!!!");
+// console.log("Client-side JS loaded!!!");
 // NB This is front end JS that runs in the browser
 // 'fetch' is a brwser based API - it's not part of Javascript and not accessible in Nodejs.
 
