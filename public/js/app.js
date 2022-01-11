@@ -51,8 +51,11 @@ const messageTwo=document.querySelector('#message-2');
       messageTwo.setAttribute('style', 'white-space: pre;'); // To get multiline paragraph using "".textContent" 
       messageTwo.textContent = `Location: ${data.forecast.location} \r\n`;
       messageTwo.textContent += `Conditions: ${data.forecast.conditions} \r\n`;
-      messageTwo.textContent += `Current temperature: ${data.forecast.current_temp} \r\n`;
-      messageTwo.textContent += `Feels like :${data.forecast.temp_feelslike}`;
+      messageTwo.textContent += `Current temperature: ${data.forecast.current_temp}°c \r\n`;
+      messageTwo.textContent += `Feels like :${data.forecast.temp_feelslike}°c \r\n`;
+      messageTwo.textContent += `There is a ${data.forecast.precip*100}% chance of rain. \r\n`;
+      messageTwo.textContent += `The humidity level is ${data.forecast.humidity}%. \r\n`;
+      messageTwo.textContent += `The cloud cover is ${data.forecast.cloudcover}%. \r\n`;
     })
   })
 });

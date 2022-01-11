@@ -17,7 +17,8 @@ const forecast=(latt,long,callback)=>{
     } else {
       callback(undefined ,{location:body.location.name+", "+body.location.country,
         conditions:body.current.weather_descriptions[0], current_temp:body.current.temperature, 
-        temp_feelslike:body.current.feelslike});
+        temp_feelslike:body.current.feelslike, precip: body.current.precip, humidity: body.current.humidity, cloudcover: body.current.cloudcover,
+      });
       // callback(undefined,`${response.body.current.weather_descriptions[0]}. It is currently ${response.body.current.temperature} degrees outside. 
       // It feels like ${response.body.current.feelslike} degrees.`);
     }
