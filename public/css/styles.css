@@ -1,0 +1,80 @@
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin:0 auto;
+  padding:0 16px;
+  background:rgb(230, 210, 215);
+
+  /* flexbox properties below*/
+  display: flex;         /* NB - using flexbox */
+  flex-direction:column;
+  min-height: 100vh;     /* 100% of viewport height */
+}
+
+footer {
+  color:888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+  background:yellowgreen;
+
+
+  /* background:yellowgreen;
+  padding: 16px;
+  margin:16px; */
+}
+
+header {
+  margin-top:16px;
+  margin-bottom:48px;
+  background:rgb(63, 102, 153);
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom:16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+  background:rgb(215, 224, 81);
+}
+
+.portrait {
+  width:500px;
+}
+
+.main-content {
+  flex-grow:1; /* So main content must take over all leftover space */
+}
+
+#message-1{
+  background:rgb(230, 124, 198);
+}
+#message-2{
+  background:rgb(135, 117, 216);
+}
+
+input{
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+button{
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px;
+}
+
+/* h1 {
+  color: orange;
+}
+
+img {
+  width:500px;
+  border: 3px solid green;
+} */
