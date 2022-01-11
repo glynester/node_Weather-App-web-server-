@@ -32,7 +32,8 @@ const messageTwo=document.querySelector('#message-2');
   console.log("Imput value: "+location);
   messageTwo.textContent ="Loading data...";
   messageOne.textContent ="";
-  fetch('http://localhost:3000/weather?address='+location)
+  // fetch('http://localhost:3000/weather?address='+location)  // won't work on heroku
+  fetch('/weather?address='+location)  // this will work on heroku and localhos.
   .then((resp)=>{
     resp.json().then((data)=>{
       // if (data.error){return console.log(data.error)}
