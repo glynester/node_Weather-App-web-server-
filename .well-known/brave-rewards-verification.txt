@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: gb-node-weather-app-web-server.herokuapp.com
-Token: 763ddc06701e68b1f3bfbc72b791099ce7a1dc2bbdaee0b377d31d6306d46667

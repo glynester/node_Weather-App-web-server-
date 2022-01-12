@@ -16,19 +16,24 @@ footer {
   color:#888888;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
-  padding: 16px 0;
+  /* padding: 16px 0; */
   background-color: rgb(19, 19, 36);
+  
 
-
-  /* background:yellowgreen;
+  /* background:yellowgreen; */
   padding: 16px;
-  margin:16px; */
+  text-align: center;
+  /* margin:16px; */
 }
 
 header {
   margin-top:16px;
   margin-bottom:48px;
   /* background:rgb(63, 102, 153); */
+}
+
+header a:hover{
+  color:rgb(255, 255, 255);
 }
 
 h1 {
@@ -70,6 +75,10 @@ button{
   padding: 8px;
 }
 
+button:hover{
+  background-color: rgb(36, 32, 36);
+}
+
 /* h1 {
   color: orange;
 }
@@ -81,4 +90,5 @@ img {
 
 #menu_bar{
   background-color: rgb(19, 19, 36);
+  padding:5px;
 }
